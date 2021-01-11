@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latex Code Generate</title>
+        <script src="js/index.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <a href="#home">home</a>
+            <a href="#home">home</a>
+            <a href="#home">home</a>
+        </nav>
+        <main>
+            <div id="div1">Enter Minterms <input type ="text" id="minterms"/></div>
+            <div id="div2">Enter Variables <input type ="text" id="variables"/></div>
+            <div id="div3">
+                <input id = "cmos" type="submit" value="Generate CMOS" tooltip="Generate CMOS" onclick="generatelatex()">
+                <input id = "cmos" type="submit" value="Generate Verilog" tooltip="Generate Verilog" onclick="generateverilog()">
+            </div>
+            <div id="div4">
+                <textarea id="latex" name="latexcode" rows="4" cols="50">\\your Code will appear here</textarea>
+            </div>
+            <div id="div3">
+                <input id = "cmos" type="submit" value="Copy Code" onclick="copycode()">
+                <input id = "cmos" type="submit" value="Clear Text" onclick="clearcode()">
+            </div>
+        </main>
+        <footer>
+            <div id="div5">Copyright &copy Tushar Jain| All rights reserved</div>
+        </footer>
+    </body>
+</html>
