@@ -11,16 +11,18 @@
     </head>
     <body>
         <nav>
-            <a href="#home">home</a>
-            <a href="#home">home</a>
-            <a href="#home">home</a>
+            <a href="index.html">🏡Home</a>
+            <a href="aboutus.html">🙂About</a>
+            <a href="howto.html">🧐Instructions</a>
         </nav>
         <main>
             <div id="div1">Enter Minterms <input type ="text" id="minterms"/></div>
             <div id="div2">Enter Variables <input type ="text" id="variables"/></div>
             <div id="div3">
-                <input id = "cmos" type="submit" value="Generate CMOS" tooltip="Generate CMOS" onclick="generatelatex()">
-                <input id = "cmos" type="submit" value="Generate Verilog" tooltip="Generate Verilog" onclick="generateverilog()">
+                <input id = "cmos" type="submit" value="CMOS" tooltip="Generate CMOS" onclick="generatecmos()">
+                <input id = "cmos" type="submit" value="AND-OR" tooltip="Generate Verilog" onclick="generateandor()">
+                <input id = "cmos" type="submit" value="NOR" tooltip="Generate Verilog" onclick="generatenortwolvl()">
+                <input id = "cmos" type="submit" value="NAND" tooltip="Generate Verilog" onclick="generatenandtwolvl()">
             </div>
             <div id="div4">
                 <textarea id="latex" name="latexcode" rows="4" cols="50">\\your Code will appear here</textarea>
