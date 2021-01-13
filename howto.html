@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latex Code Generate</title>
+        <script src="js/index.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Mono&display=swap" rel="stylesheet">
+        <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+    </script>
+    <script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">🏡Home</a>
+            <a href="aboutus.html">🙂About</a>
+            <a href="howto.html">🧐Instructions</a>
+        </nav>
+        <main>
+            <h1>Instructions</h1>
+            <ol>
+                <li>In order to provide the logical function you must provide both its minterms and variables. 
+                    For example if your function is $F(A,B,C)=A\bar{B}C+\bar{A}BC+AB\bar{C} \quad$ than use 3, 5, 6 as your minterms and A, B, C as variables.</li>
+                <li>Limit the number of minterms and variables to 16 due to $\LaTeX$ support.</li> 
+                <li>You can also use symbols like $\alpha$ and $\beta$ by simply using their $\LaTeX$ equivalent. For example,</li>   
+            
+                <ul>
+                    <li>\alpha : $\alpha$</li>
+                    <li>\beta : $\beta$</li>
+                    <li>\gamma :$\gamma$</li>
+                    <li>\phi:$\phi$</li>
+                    <li>\psi:$\psi$</li>
+                </ul>
+                <li>Do not use  <code>% , $ </code> and other $\LaTeX$ reserved symbols as variables.</li>
+            </ol>
+        </main>
+        <footer>
+            <div id="div5">Copyright &copy Tushar Jain| All rights reserved</div>
+        </footer>
+    </body>
+</html>
