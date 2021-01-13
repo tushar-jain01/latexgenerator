@@ -1,3 +1,6 @@
+*{
+    text-align:center;
+}
 body{
     background: #1D2B64;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
@@ -20,8 +23,14 @@ nav,footer,main{
     padding :1%;
     margin : 0 auto;
 }
+#div3{
+    width:30%;
+}
 #div4,#latex{
     width: 70%;
+}
+textarea{
+    text-align: left;
 }
 #latex,textarea{
     width: 100%;
@@ -43,7 +52,7 @@ nav,footer,main{
     border:none;
     margin:1%;
     padding: 2%;
-    width: 25%;
+    width: 45%;
     
   }
   #cmos:hover{
@@ -55,4 +64,18 @@ nav,footer,main{
   #div5{
       width: fit-content;
       margin: 0 auto;
+  }
+  nav a{
+      text-decoration: none;
+      margin: 1%;
+      border-radius: 5px;
+      border: 2px solid;
+      padding:0.5%;
+  }
+  li{
+      font-family: 'Roboto Mono',monospace;
+      font-size: 130%;
+      margin:0 auto;
+      text-align: left;
+      width: 60%;
   }
