@@ -11,5 +11,5 @@
                     <li>\phi:<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\fn_jvn&space;\phi" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\fn_jvn&space;\phi" title="\phi" /></a></li>
                     <li>\psi:<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\fn_jvn&space;\psi" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\fn_jvn&space;\psi" title="\psi" /></a></li>
                 </ul>
-                <li>Do not use  <code>% , $ </code> and other $\LaTeX$ reserved symbols as variables.</li>
+                <li>Do not use  <code>% , $ </code> and other LaTeX reserved symbols as variables.</li>
             </ol>
